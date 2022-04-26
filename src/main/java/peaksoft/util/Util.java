@@ -5,8 +5,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Util {
-    // реализуйте настройку соеденения с БД
-    private  Connection connection = null;
+
+    private Connection connection = null;
 
 
     public Util() throws SQLException {
@@ -19,7 +19,7 @@ public class Util {
 
     }
 
-    public Connection getConnection()    {
+    public Connection getConnection() {
         return connection;
     }
 }
